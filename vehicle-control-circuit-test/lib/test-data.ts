@@ -1,0 +1,278 @@
+export const testItemsData = [
+  // 4.1 Train System
+  {
+    id: 1,
+    system: "Train System",
+    code: "4.1.1",
+    name: "Controlling cab relay verification",
+    drawing: "942-58107",
+    expected: "KOR, HCR 1-6 energized",
+  },
+  {
+    id: 2,
+    system: "Train System",
+    code: "4.1.2",
+    name: "Start up/Shut down/Reset",
+    drawing: "942-58108",
+    expected: "ASDR energized, STUR de-energized",
+  },
+  {
+    id: 3,
+    system: "Train System",
+    code: "4.1.3",
+    name: "System status indication",
+    drawing: "942-58109",
+    expected: "Indicator lights functioning",
+  },
+  {
+    id: 4,
+    system: "Train System",
+    code: "4.1.4",
+    name: "MCB status indication",
+    drawing: "942-58110",
+    expected: "MCB 110Vdc Group status correct",
+  },
+  {
+    id: 5,
+    system: "Train System",
+    code: "4.1.5",
+    name: "TLSC control",
+    drawing: "942-58115",
+    expected: "TLSC1, TLSC1R energized",
+  },
+
+  // 4.2 Interior and Lighting
+  {
+    id: 6,
+    system: "Interior & Lighting",
+    code: "4.2.1",
+    name: "Head & cab main light",
+    drawing: "942-58111",
+    expected: "Lights functioning as designed",
+  },
+  {
+    id: 7,
+    system: "Interior & Lighting",
+    code: "4.2.2",
+    name: "Tail light, flasher light and console light",
+    drawing: "942-58112",
+    expected: "Lights functioning as designed",
+  },
+  {
+    id: 8,
+    system: "Interior & Lighting",
+    code: "4.2.3",
+    name: "LED saloon light",
+    drawing: "942-58113",
+    expected: "Saloon lights ON/OFF as expected",
+  },
+  {
+    id: 9,
+    system: "Interior & Lighting",
+    code: "4.2.4",
+    name: "Windscreen wiper",
+    drawing: "942-58114",
+    expected: "Wiper function in all modes",
+  },
+
+  // 4.3 Gangway and Coupler
+  {
+    id: 10,
+    system: "Gangway & Coupler",
+    code: "4.3.1",
+    name: "Front auto coupler circuit",
+    drawing: "942-58116",
+    expected: "Coupling/uncoupling solenoids energized",
+  },
+
+  // 4.4 Traction System
+  {
+    id: 11,
+    system: "Traction System",
+    code: "4.4.1",
+    name: "Speed control",
+    drawing: "942-58117",
+    expected: "VVVF receives power command",
+  },
+  {
+    id: 12,
+    system: "Traction System",
+    code: "4.4.2",
+    name: "VVVF control",
+    drawing: "942-58118",
+    expected: "VVVF powers up correctly",
+  },
+
+  // 4.5 Brake System
+  {
+    id: 13,
+    system: "Brake System",
+    code: "4.5.1",
+    name: "Compressor control",
+    drawing: "942-58119",
+    expected: "Compressor starts/stops at thresholds",
+  },
+  {
+    id: 14,
+    system: "Brake System",
+    code: "4.5.2",
+    name: "Brake loop",
+    drawing: "942-58120",
+    expected: "Complete (110V) with doors closed",
+  },
+  {
+    id: 15,
+    system: "Brake System",
+    code: "4.5.3",
+    name: "Emergency brake loop",
+    drawing: "942-58121",
+    expected: "Emergency brake applies correctly",
+  },
+  {
+    id: 16,
+    system: "Brake System",
+    code: "4.5.4",
+    name: "Parking brake",
+    drawing: "942-58122",
+    expected: "Parking brake release functions",
+  },
+  {
+    id: 17,
+    system: "Brake System",
+    code: "4.5.5",
+    name: "Horn",
+    drawing: "942-58123",
+    expected: "Both high and low tones sound",
+  },
+
+  // 4.6 Auxiliary Electric
+  {
+    id: 18,
+    system: "Auxiliary Electric",
+    code: "4.6.1",
+    name: "Auxiliary power supply",
+    drawing: "942-58124",
+    expected: "Supply voltage correct",
+  },
+  {
+    id: 19,
+    system: "Auxiliary Electric",
+    code: "4.6.2",
+    name: "Battery charging",
+    drawing: "942-58125",
+    expected: "Charging functions correctly",
+  },
+
+  // 4.7 Door System
+  {
+    id: 20,
+    system: "Door System",
+    code: "4.7.1",
+    name: "Saloon door 110V DC supply",
+    drawing: "942-58126",
+    expected: "110V DC available at doors",
+  },
+  {
+    id: 21,
+    system: "Door System",
+    code: "4.7.2",
+    name: "Door operation, left",
+    drawing: "942-58127",
+    expected: "Left doors open/close as commanded",
+  },
+  {
+    id: 22,
+    system: "Door System",
+    code: "4.7.3",
+    name: "Door operation, right",
+    drawing: "942-58128",
+    expected: "Right doors open/close as commanded",
+  },
+  {
+    id: 23,
+    system: "Door System",
+    code: "4.7.4",
+    name: "Door proving loop",
+    drawing: "942-58129",
+    expected: "Door loop complete when all doors closed",
+  },
+
+  // 4.8 Air Conditioning
+  {
+    id: 24,
+    system: "Air Conditioning",
+    code: "4.8.1",
+    name: "Cab HVAC",
+    drawing: "942-58130",
+    expected: "Cab HVAC functions in all modes",
+  },
+  {
+    id: 25,
+    system: "Air Conditioning",
+    code: "4.8.2",
+    name: "Saloon HVAC",
+    drawing: "942-58131",
+    expected: "Saloon HVAC functions correctly",
+  },
+
+  // 4.9 Train Management
+  {
+    id: 26,
+    system: "Train Management",
+    code: "4.9.1",
+    name: "TCMS startup",
+    drawing: "942-58140",
+    expected: "TCMS powers up correctly",
+  },
+  {
+    id: 27,
+    system: "Train Management",
+    code: "4.9.2",
+    name: "TCMS interfaces",
+    drawing: "942-58141",
+    expected: "All interfaces function correctly",
+  },
+
+  // 4.10 Communication Systems
+  {
+    id: 28,
+    system: "Communication Systems",
+    code: "4.10.1",
+    name: "PIS system",
+    drawing: "942-58144",
+    expected: "Announcements play correctly",
+  },
+  {
+    id: 29,
+    system: "Communication Systems",
+    code: "4.10.2",
+    name: "PA system",
+    drawing: "942-58145",
+    expected: "PA functions in all modes",
+  },
+  {
+    id: 30,
+    system: "Communication Systems",
+    code: "4.10.3",
+    name: "ATP system",
+    drawing: "942-58146",
+    expected: "ATP interfaces function correctly",
+  },
+  {
+    id: 31,
+    system: "Communication Systems",
+    code: "4.10.4",
+    name: "Train radio",
+    drawing: "942-58147",
+    expected: "Radio transmits and receives",
+  },
+  {
+    id: 32,
+    system: "Communication Systems",
+    code: "4.10.5",
+    name: "CCTV system",
+    drawing: "942-58148",
+    expected: "All cameras display correctly",
+  },
+]
+
